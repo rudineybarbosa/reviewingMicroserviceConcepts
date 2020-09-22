@@ -1,10 +1,10 @@
 package domain.model;
 
-public abstract class BaseEntity<T> extends Entity<T> {
+public abstract class BaseEntity<TypeOfId> extends Entity<TypeOfId> {
 	
 	private boolean isModified;
 
-	public BaseEntity(T id, String name) {
+	public BaseEntity(TypeOfId id, String name) {
 		super(id, name);
 		
 		this.isModified = false;

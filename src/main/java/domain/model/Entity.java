@@ -1,11 +1,11 @@
 package domain.model;
 
-public abstract class Entity<T> {
+public abstract class Entity<TypeOfId> {
 
-	T id;
+	TypeOfId id;
 	String name;
 	
-	public Entity(T id, String name) {
+	public Entity(TypeOfId id, String name) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -15,10 +15,10 @@ public abstract class Entity<T> {
 		
 	}
 	
-	public T getId() {
+	public TypeOfId getId() {
 		return id;
 	}
-	public void setId(T id) {
+	public void setId(TypeOfId id) {
 		this.id = id;
 	}
 	public String getName() {
