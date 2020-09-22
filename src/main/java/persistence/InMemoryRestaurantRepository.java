@@ -1,10 +1,11 @@
-package domain.repository;
+package persistence;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
 import domain.model.Restaurant;
+import domain.repository.RestaurantRepository;
 
 public class InMemoryRestaurantRepository implements RestaurantRepository<Restaurant, String>{
 
