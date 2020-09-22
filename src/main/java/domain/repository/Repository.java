@@ -1,11 +1,11 @@
 package domain.repository;
 
-public interface Repository<TypeEntity, TypeId> extends ReadOnlyRepository<TypeEntity, TypeId> {
+public interface Repository<TypeOfEntity, TypeOfId> extends ReadOnlyRepository<TypeOfEntity, TypeOfId> {
 	
-	void add(TypeEntity entity);
+	void add(TypeOfEntity entity);
 	
-	void remove(TypeId id);
+	void remove(TypeOfId id);
 	
-	void update(TypeEntity entity);
+	void update(TypeOfEntity entity);
 
 }
