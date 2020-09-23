@@ -5,4 +5,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>reviewingMicroserviceConcepts</name>
   <description>Reviewing microservice concepts</description>
+  
+  <packaging>jar</packaging> 
 </project>
