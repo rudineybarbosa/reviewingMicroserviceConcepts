@@ -11,9 +11,6 @@ public class Table extends BaseEntity<BigInteger>{
 		this.capacity = capacity;
 	}
 	
-	public Table() {
-	}
-
 	public int getCapacity() {
 		return capacity;
 	}

@@ -5,16 +5,6 @@ public abstract class Entity<TypeOfId> {
 	TypeOfId id;
 	String name;
 	
-	public Entity(TypeOfId id, String name) {
-		super();
-		this.id = id;
-		this.name = name;
-	}
-	
-	public Entity() {
-		
-	}
-	
 	public TypeOfId getId() {
 		return id;
 	}

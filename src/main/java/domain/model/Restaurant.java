@@ -12,10 +12,6 @@ public class Restaurant extends BaseEntity<String>{
 		this.tables = tables;
 	}
 	
-	public Restaurant() {
-		
-	}
-
 	public List<Table> getTables() {
 		return tables;
 	}
